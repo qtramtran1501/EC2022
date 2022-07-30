@@ -1,0 +1,19 @@
+﻿@model OnlineMarket.ModelViews.MuaHangVM
+@{
+    ViewData["Title"] = "Mua Hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    List<OnlineMarket.ModelViews.CartItem> Carts = ViewBag.GioHang;
+}
+@section Styles {
+
+    <style type="text/css">
+        .bg-image {
+            background-image: url('@Url.Content("~/assets/images/breadcrumb/bg1.jpg")');
+            background-size: cover;
+            height: 600px;
+        }
+    </style>
+}
+<div class="col-lg-6 col-12">
+    <h1>SUCCESS</h1>
+</div>
